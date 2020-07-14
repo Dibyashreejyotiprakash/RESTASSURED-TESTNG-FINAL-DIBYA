@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4139" started-at="2020-07-14T02:59:31Z" finished-at="2020-07-14T02:59:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4139" started-at="2020-07-14T02:59:31Z" finished-at="2020-07-14T02:59:35Z">
+      <class name="com.httpmethod.ValidateUsersApi">
+        <test-method status="PASS" signature="baseUriSetUp()[pri:0, instance:com.httpmethod.ValidateUsersApi@6eebc39e]" name="baseUriSetUp" is-config="true" duration-ms="472" started-at="2020-07-14T02:59:31Z" finished-at="2020-07-14T02:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUriSetUp -->
+        <test-method status="PASS" signature="validateAllExistingUsersDetails()[pri:1, instance:com.httpmethod.ValidateUsersApi@6eebc39e]" name="validateAllExistingUsersDetails" duration-ms="1590" started-at="2020-07-14T02:59:31Z" description="Validate all existing users details" finished-at="2020-07-14T02:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllExistingUsersDetails -->
+        <test-method status="PASS" signature="validateSingleUserDetails()[pri:2, instance:com.httpmethod.ValidateUsersApi@6eebc39e]" name="validateSingleUserDetails" duration-ms="566" started-at="2020-07-14T02:59:33Z" description="Validate single user details" finished-at="2020-07-14T02:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleUserDetails -->
+        <test-method status="PASS" signature="validateCreateSingleUser()[pri:3, instance:com.httpmethod.ValidateUsersApi@6eebc39e]" name="validateCreateSingleUser" duration-ms="672" started-at="2020-07-14T02:59:34Z" description="Validate create single user" finished-at="2020-07-14T02:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateSingleUser -->
+        <test-method status="PASS" signature="validateDeleteUser()[pri:4, instance:com.httpmethod.ValidateUsersApi@6eebc39e]" name="validateDeleteUser" duration-ms="462" started-at="2020-07-14T02:59:34Z" description="Validate delete single user" finished-at="2020-07-14T02:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteUser -->
+        <test-method status="PASS" signature="validateCreateSingleUserWithPojo()[pri:5, instance:com.httpmethod.ValidateUsersApi@6eebc39e]" name="validateCreateSingleUserWithPojo" duration-ms="11" started-at="2020-07-14T02:59:35Z" description="Validate create single user" finished-at="2020-07-14T02:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateSingleUserWithPojo -->
+        <test-method status="PASS" signature="CleanUp()[pri:0, instance:com.httpmethod.ValidateUsersApi@6eebc39e]" name="CleanUp" is-config="true" duration-ms="336" started-at="2020-07-14T02:59:35Z" finished-at="2020-07-14T02:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUp -->
+      </class> <!-- com.httpmethod.ValidateUsersApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

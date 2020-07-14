@@ -1,0 +1,5 @@
+{
+	"allusersendpoint":"/api/users?page=2",
+	"singleuserendpoint":"/api/users/2",
+	"createuserendpoint":"/api/users"
+}
